@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+}
+#form{
+    background-color: rgba(85, 135, 229, 0.35);
+    margin:120px;
+    padding:50px;
+    box-shadow:5px 5px 5px 5px rgba(1, 10, 27);
+    border-radius: 10px;
+    
+
+}
+@media screen and (max-width:700px){
+    #form{
+        width:65%;
+        padding:30px;
+    }
+}
